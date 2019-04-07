@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mobile App devoloping</title>
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/jquery-ui.css">
+  <link rel="stylesheet" href="css/jquery.bxslider.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shourcut icon" href="img/facebook1.png">
+  <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/jquery.bxslider.js"></script>
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery.validate.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+</head>
+
+<body>
+
+  <div id="wrapper">
+    <div id="banner-wrapper">
+      <header>
+        <div id="header-inner">
+          <a href="index.html" id="logo"></a>
+          <nav>
+            <a href="#" id="menu-icon"><i class="fa fa-home"></i></a>
+            <ul>
+              <li class="current"><a href="#">Home</a></li>
+              <li><a href="#">Skills</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Our Team</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <!-- slider start -->
+      <div class="slide-wrap">
+        <div class="slider">
+          <ul class="slider1">
+            <li><img src="computer/computer-4.jpg" alt="image"></li>
+            <li><img src="computer/computer-5.jpg" alt="image"></li>
+            <li><img src="computer/computer-6.jpg" alt="image"></li>
+            <li><img src="computer/computer-7.jpg" alt="image"></li>
+            <li><img src="computer/computer-8.jpg" alt="image"></li>
+            <li><img src="computer/computer-9.jpg" alt="image"></li>
+            <li><img src="computer/computer-10.jpg" alt="image"></li>
+            <li><img src="computer/computer-11.jpg" alt="image"></li>
+            <li><img src="computer/computer-12.jpg" alt="image"></li>
+            <li><img src="computer/computer-13.jpg" alt="image"></li>
+          </ul>
+        </div>
+      </div>
+
+      <script>
+        $(document).ready(function() {
+          $(".slider1").bxSlider({
+            mode: 'fade',
+            caption: false,
+            auto: true,
+            pager: false
+          });
+          $(".slider2").bxSlider({
+            mode: 'fade',
+            caption: true,
+            maxSlider: 3,
+            minSlider: 1,
+            sliderWidth: 230,
+            sliderHeight: 10,
+            pager: false
+          });
+          $(".slider1").bxSlider({
+            mode: 'fade',
+            caption: false,
+            auto: true,
+            pager: false,
+            controls: false,
+          });
+
+        });
+      </script>
+    </div>
+    <!-- slider end -->
+
+    <!-- one third icon part -->
+    <section class="one-third">
+      <div class="icon-wrap">
+          <td><i class="fa fa-desktop"></i></td>
+      </div>
+      <h3>Web Design</h3>
+    </section>
+    <section class="one-third">
+      <div class="icon-wrap">
+        <td><i class="fa fa-pencil-square-o"></i></td>
+      </div>
+      <h3>Digital Graphics</h3>
+    </section>
+    <section class="one-third">
+      <div class="icon-wrap">
+      <td><i class="fa fa-file-code-o"></i></td>
+      </div>
+
+      <h3>Devolopment</h3>
+    </section>
+    <!-- left-col and side bar -->
+    <div class="clearfix-padding"></div>
+    <section class="left-col">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. , repellendus placeat cum ipsa optio atque, debitis dolore ullam ducimus, Nemo nobis error molestiae, quibusdam ipsam natus, repellendus placeat cum ipsa optio atque, debitis dolore ullam ducimus, Nemo nobis error molestiae, quibusdam ipsam natus, repellendus placeat cum ipsa optio atque, debitis dolore ullam ducimus,  Nemo nobis error molestiae, quibusdam ipsam natus, repellendus placeat cum ipsa optio atque, debitis dolore ullam ducimus,hic laudantium consequatur exercitationem vitae!</p>
+    </section>
+    <section class="aside">
+      <img src="img/computer.jpg" alt="computer image">
+    </section>
+
+    <!-- one-third-padding -->
+    <div class="clearfix-padding"></div>
+    <section class="one-third-padding">
+      <h3>Our Skills</h3>
+      <img src="img/computer-1.jpg" alt="image">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur illo, tempore vel atque sunt sequi odio dolorem unde, voluptatum sit sint. Voluptatum magnam tempora blanditiis, incidunt doloremque error! Aliquam, non.</p>
+    </section>
+    <section class="one-third-padding">
+      <h3>Our Skills Two</h3>
+      <img src="img/computer-2.jpg" alt="image">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, assumenda enim. Similique, laborum sit eligendi recusandae itaque quis laboriosam numquam nesciunt, voluptates commodi, reiciendis natus animi! A molestiae, iure cumque!</p>
+    </section>
+    <section class="one-third-padding">
+      <h3>Our Skills Three</h3>
+      <img src="img/computer-3.jpg" alt="image">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam dolore repellendus esse repudiandae unde debitis rem eos vero non nam nesciunt, provident harum hic necessitatibus! Consequatur laboriosam alias adipisci? Similique.</p>
+    </section>
+  </div>
+  <div class="clearfix-padding"></div>
+  <!-- end of wrapper -->
+<footer>
+  <div class="banner-wrapper">
+    <div class="icon-text">
+      <div class="icon-text-icon">
+        <ul class="footer-nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Skills</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Our Team</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="icon-text-text">
+        <ul class="social">
+          <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+<footer class="second">
+  <p>&copy;copyright by mr. Liaqat Ali</p>
+</footer>
+</body>
+
+</html>
